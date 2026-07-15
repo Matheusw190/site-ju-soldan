@@ -21,7 +21,7 @@ st.title("💅 JS Ju Soldan")
 
 # Coloque aqui o nome da foto que você subiu no Cloudinary
 # Exemplo: Se sua foto se chama 'unha1', troque 'sample' por 'unha1'
-foto_id = "sample" 
+foto_id = "Unha_01" 
 
 try:
     foto_url = cloudinary.utils.cloudinary_url(foto_id, fetch_format="auto", quality="auto")[0]
